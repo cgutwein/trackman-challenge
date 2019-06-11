@@ -1,0 +1,246 @@
+games.metadata 
+
+	 |
+ 	 |+ rundown.location_history
+		 |
+ 		 |+ rundown.location_history_rows
+report.scheduled_exceptions 
+
+	 |
+ 	 |+ games.metadata
+		 |
+ 		 |+ rundown.location_history
+			 |
+ 			 |+ rundown.location_history_rows
+	 |
+ 	 |+ report.exp_access_rules
+games.autorecalibration 
+
+	 |
+ 	 |+ crosscheck.games
+		 |
+ 		 |+ rundown.location_history
+			 |
+ 			 |+ rundown.location_history_rows
+		 |
+ 		 |+ crosscheck.tags
+			 |
+ 			 |+ scout.tags
+	 |
+ 	 |+ crosscheck.calibration_maintenance
+		 |
+ 		 |+ crosscheck.games
+			 |
+ 			 |+ rundown.location_history
+				 |
+ 				 |+ rundown.location_history_rows
+			 |
+ 			 |+ crosscheck.tags
+				 |
+ 				 |+ scout.tags
+rundown.access_rules_history 
+
+	 |
+ 	 |+ rundown.access_rules_rows
+crosscheck.calibration_maintenance 
+
+	 |
+ 	 |+ crosscheck.games
+		 |
+ 		 |+ rundown.location_history
+			 |
+ 			 |+ rundown.location_history_rows
+		 |
+ 		 |+ crosscheck.tags
+			 |
+ 			 |+ scout.tags
+report.delivered_no_exceptions_hist 
+
+	 |
+ 	 |+ report.delivered_new_pk
+	 |
+ 	 |+ report.exp_access_rules_hist
+games.nulls 
+
+	 |
+ 	 |+ crosscheck.tags
+		 |
+ 		 |+ scout.tags
+report.hardball_pitchers 
+
+	 |
+ 	 |+ scout.tags
+report.delivered_combined_hist 
+
+	 |
+ 	 |+ report.delivered_no_exceptions_hist
+		 |
+ 		 |+ report.delivered_new_pk
+		 |
+ 		 |+ report.exp_access_rules_hist
+	 |
+ 	 |+ report.delivered_exceptions_hist
+		 |
+ 		 |+ report.delivered_new_pk
+		 |
+ 		 |+ report.exp_access_rules_hist
+report.practice_pitching 
+
+games.vision_oem 
+
+	 |
+ 	 |+ crosscheck.tags
+		 |
+ 		 |+ scout.tags
+report.false_delivered_hist 
+
+	 |
+ 	 |+ report.delivered_new_pk
+	 |
+ 	 |+ report.delivered_combined_hist
+		 |
+ 		 |+ report.delivered_no_exceptions_hist
+			 |
+ 			 |+ report.delivered_new_pk
+			 |
+ 			 |+ report.exp_access_rules_hist
+		 |
+ 		 |+ report.delivered_exceptions_hist
+			 |
+ 			 |+ report.delivered_new_pk
+			 |
+ 			 |+ report.exp_access_rules_hist
+games.latency 
+
+	 |
+ 	 |+ crosscheck.tags
+		 |
+ 		 |+ scout.tags
+scout.tags 
+
+report.delivered_no_exceptions 
+
+	 |
+ 	 |+ report.delivered_new_pk
+	 |
+ 	 |+ report.exp_access_rules
+report.scheduled_no_exceptions_hist 
+
+	 |
+ 	 |+ report.schedule_new_level
+	 |
+ 	 |+ games.metadata
+		 |
+ 		 |+ rundown.location_history
+			 |
+ 			 |+ rundown.location_history_rows
+	 |
+ 	 |+ report.exp_access_rules_hist
+report.schedule_new_level 
+
+locations.latency 
+
+	 |
+ 	 |+ crosscheck.tags
+		 |
+ 		 |+ scout.tags
+crosscheck.games 
+
+	 |
+ 	 |+ rundown.location_history
+		 |
+ 		 |+ rundown.location_history_rows
+	 |
+ 	 |+ crosscheck.tags
+		 |
+ 		 |+ scout.tags
+rundown.location_history_rows 
+
+games.live_final 
+
+	 |
+ 	 |+ crosscheck.tags
+		 |
+ 		 |+ scout.tags
+report.verified_levels_18 
+
+report.scheduled_no_exceptions 
+
+	 |
+ 	 |+ games.metadata
+		 |
+ 		 |+ rundown.location_history
+			 |
+ 			 |+ rundown.location_history_rows
+	 |
+ 	 |+ report.exp_access_rules
+trout.app_angle 
+
+	 |
+ 	 |+ scout.tags
+report.delivered_exceptions_hist 
+
+	 |
+ 	 |+ report.delivered_new_pk
+	 |
+ 	 |+ report.exp_access_rules_hist
+report.exp_access_rules_hist 
+
+report.exp_access_rules 
+
+report.practice_pitching_dev 
+
+games.vision 
+
+	 |
+ 	 |+ crosscheck.tags
+		 |
+ 		 |+ scout.tags
+rundown.access_rules_rows 
+
+crosscheck.tags 
+
+	 |
+ 	 |+ scout.tags
+report.mlb_orgs 
+
+rundown.location_history 
+
+	 |
+ 	 |+ rundown.location_history_rows
+locations.vision_oem 
+
+	 |
+ 	 |+ crosscheck.tags
+		 |
+ 		 |+ scout.tags
+games.oem 
+
+	 |
+ 	 |+ crosscheck.tags
+		 |
+ 		 |+ scout.tags
+report.scheduled_combined 
+
+	 |
+ 	 |+ report.scheduled_no_exceptions
+		 |
+ 		 |+ games.metadata
+			 |
+ 			 |+ rundown.location_history
+				 |
+ 				 |+ rundown.location_history_rows
+		 |
+ 		 |+ report.exp_access_rules
+	 |
+ 	 |+ report.scheduled_exceptions
+		 |
+ 		 |+ games.metadata
+			 |
+ 			 |+ rundown.location_history
+				 |
+ 				 |+ rundown.location_history_rows
+		 |
+ 		 |+ report.exp_access_rules
+report.delivered_new_pk 
+
