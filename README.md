@@ -1,7 +1,7 @@
 # trackman-challenge
 The Data Engineer Trackman challenge (http://codechallenge.trackmandata.com/)
 
-## Instruction to run code  
+## Instructions to run code  
 1. Requires Python 3  
 2. In the terminal, you will need to run python, the `d_graph_run.py` script and one argument for a filename to save the output.  
 
